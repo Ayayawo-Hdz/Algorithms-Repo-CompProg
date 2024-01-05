@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.30)  4 JAN 2024 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.30)  5 JAN 2024 00:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,36 +449,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 11.
  (./template.cpp)
+(./Graphs/breadth_first_search.cpp [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
+) [3]
 
 AED: lastpage setting LastPage
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+ [4]
 Overfull \vbox (402.53918pt too high) has occurred while \output is active []
 
 
-[4] (./tno.aux)
+[5
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+] (./tno.aux)
 Package rerunfilecheck Info: File `tno.out' has not changed.
-(rerunfilecheck)             Checksum: 4A14649E0706FEFD4129C3486610DE9B;9437.
+(rerunfilecheck)             Checksum: 0AA29163BE5EBEAD899B6D4E7D0FF036;9437.
  ) 
 Here is how much of TeX's memory you used:
- 12791 strings out of 480247
- 195584 string characters out of 5896150
- 745059 words of memory out of 5000000
- 30468 multiletter control sequences out of 15000+600000
+ 12910 strings out of 480247
+ 197083 string characters out of 5896150
+ 915059 words of memory out of 5000000
+ 30536 multiletter control sequences out of 15000+600000
  473250 words of font info for 44 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 65i,12n,66p,333b,1417s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,66p,333b,2037s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -491,10 +491,10 @@ msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 >
-Output written on tno.pdf (4 pages, 211882 bytes).
+Output written on tno.pdf (5 pages, 218323 bytes).
 PDF statistics:
- 453 PDF objects out of 1000 (max. 8388607)
- 417 compressed objects within 5 object streams
- 92 named destinations out of 1000 (max. 500000)
+ 513 PDF objects out of 1000 (max. 8388607)
+ 476 compressed objects within 5 object streams
+ 139 named destinations out of 1000 (max. 500000)
  510 words of extra memory for PDF output out of 10000 (max. 10000000)
 
