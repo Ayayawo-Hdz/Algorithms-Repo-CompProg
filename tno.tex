@@ -1,0 +1,166 @@
+%"The PDF file may contain up to 25 pages of reference material, single-sided, letter or A4 size, with text and illustrations readable by a person with correctable eyesight without magnification from a distance of 1/2 meter."
+\input{preamble.tex}
+\begin{document}
+\def\title{Universidad Autonoma de Ciudad Juarez - Everyone's Connected}
+.\\[0.2cm]
+\centering{\LARGE\textbf{Everyone's Connected}} \\[0.5cm]
+\centering{\includegraphics[width=5.5cm]{lain.jpg}}
+\tableofcontents\newpage
+
+\section{Template}
+\cppfile{template.cpp}
+\section{Data structures}
+\subsection{Simplified DSU (Stolen from GGDem)}
+\subsection{Disjoint Set Union}
+\subsection{Segment tree}
+\subsection{Segment tree Lazy}
+\subsection{Trie}
+
+
+\section{Graphs}
+\subsection{Graph Transversal}
+\subsubsection{BFS}
+\subsubsection{DFS}
+\subsection{Topological Sort}
+\subsection{APSP: Floyd Warshall}
+\subsection{SSSP}
+\subsubsection{Lazy Dijkstra}
+\subsubsection{Bellman-Ford}
+\subsection{Strongly Connected Components: Kosaraju}
+\subsection{Articulation Points and Bridges: ModTarjan}
+
+\section{Math}
+\subsection{Identities}
+{
+\textbf{Coeficientes binomiales.}
+
+$(a+b)^{n} = \Sigma_{k = 0}^{n} \binom{n}{k}a^{n-k}b^{k}$
+
+$\binom{n}{k} = \binom{n}{n-k}$
+
+$\binom{n}{k} = \binom{n-1}{k} + \binom{n-1}{k-1}$
+
+$k\binom{n}{k} = n\binom{n-1}{k-1}$
+
+$\Sigma_{k = 0}{n}\binom{n}{k} = 2^{n}$
+
+$\Sigma_{k = 0}^{n} (-1)^{k}\binom{n}{k} = 0$
+
+$\binom{n+m}{t} = \Sigma_{k = 0}^{t}\binom{n}{k}\binom{m}{t-k}$
+
+$\Sigma_{j = k}^{n} \binom{j}{k} = \binom{n+1}{k+1}$
+
+\textbf{Numeros Catalanes.}
+
+$C_n = \frac{2(2n-1)}{n+1} C_{n-1}$
+
+$C_n = \frac{1}{n+1} \binom{2n}{n}$
+
+$C_n \sim \frac{4^n}{n^{3/2}\sqrt{\pi}}$
+
+$\Sigma(n) = O(\log(\log(n)))$ (number of divisors of $n$)
+
+$F_{2n+1} = F_{n}^2 + F_{n+1}^2$
+
+$F_{2n} = F_{n+1}^2 - F_{n-1}^2$
+
+$\sum_{i=1}^n F_i = F_{n+2}-1$
+
+$F_{n+i}F_{n+j} - F_nF_{n+i+j} = (-1)^n F_iF_j$
+
+\textbf{(Möbius Function)}
+
+0 if n is square-free
+
+1 if n got even amount of distinct prime factors
+
+0 if n got odd amount of distinct prime factors
+
+\textbf{(Möbius Inv. Formula)}
+
+Let $g(n) = \sum_{d\mid n} f(d)$, then $f(n)=\sum{d\mid n} g(d) \mu\left(\frac{n}{d})\right)$.
+}
+\\
+\textbf{Permutaciones objetos repetidos}
+
+$P(n,k) = \frac{P(n,k)}{n_{1}!n_{2}!...}$ 
+\\
+\textbf{Separadores, Ecuaciones lineares $a$ variables $= b$}
+  
+$\left(\binom{a}{b}\right) = \binom{a+b-1}{b} = \binom{a+b-1}{a-1}$
+
+\textbf{Teorema chino}
+
+sean $\{n_{1}, n_{2},..., n_{k} \}$ primos relativos\\
+
+$P = n_{1}\cdot n_{2}\cdot ...\cdot n_{k}$
+
+$P_{i} = \frac{P}{n_{i}}$
+
+$x\cong a_{1}(n_{1})$
+
+$x\cong a_{2}(n_{2})$
+$...$
+$x\cong a_{k}(n_{k})$
+
+$P_{1}S_{1} \cong 1(n_{1})$ Donde $S$ soluciones.
+
+$x = P_{1}S_{1}a_{1} + P_{2}S_{2}a_{2} ... P_{k}S_{k}a_{k}$
+
+
+\subsection{Binary Exponentiation and modArith}
+\subsection{Modular Inverse (dividir mod)}
+\subsection{Modular Binomial Coeficient and Permutations}
+\subsection{Non-Mod Binomial Coeficient and Permutations}
+\subsection{Modular Catalan Numbers}
+\subsection{Ceil Fraccionario}
+\subsection{Numeros de Fibonacci}
+\subsection{Sieve Of Eratosthenes}
+\subsection{Sieve-based Factorization}
+\subsection{Cycle Finding}
+\subsection{Berlekamp Massey}
+\subsection{Modular Berlekamp Massey}
+\subsection{Matrix exponentiation}
+\subsection{Ecuaciones Diofantinas}
+\subsection{Pollard-Rho, Stolen from GGDem}
+\subsection{FFT, Stolen from GGDem}
+\subsection{Euler Totient Function}
+\section{Geometry}
+
+
+\section{Strings}
+\subsection{Explode by token}
+\subsection{Multiple Hashings DS}
+\subsection{Permute chars of string}
+\subsection{Longest common subsequence}
+\subsection{KMP}
+\subsection{Suffix Array}
+\subsection{STL Suffix Array}
+\section{Clasicos}
+\subsection{Job scheduling}
+\subsubsection{One machine, linear penalty}
+\subsubsection{One machine, deadlines}
+\subsubsection{One machine, profit}
+\subsubsection{Two machines, min time}
+
+\section{Flow}
+\subsection{Dinic, thx GGDem}
+
+\section{Miscellaneous}
+\subsection{pbds}
+\subsection{Bit Manipulation}
+
+\section{Testing}
+\subsection{Gen and AutoRun testcases}
+\subsubsection{Gen.cpp}
+\subsubsection{Stress testing}
+%\lstinputlisting[language={bash}]{Testing/test.sh}
+\subsubsection{Autorun}
+%\lstinputlisting[language={bash}]{Testing/runAllTests.sh}
+\subsection{Highly Composite Numbers}
+Particularly useful when testing number theoretical solutions.
+%\lstinputlisting[language={}]{Testing/highlycomposite.txt}
+
+
+\end{document}
+
