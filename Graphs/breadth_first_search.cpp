@@ -1,12 +1,11 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 vector<bool> visited;
 vector<vector<int>> adj;
 
 void breadth_first_search(int node) {
-    // BFS requieres queue data structure, starting from initial node 0
+    // BFS requieres queue data structure, starting from a given initial node
     queue<int> q;
     q.push(node);
     visited[node] = true;
@@ -33,13 +32,13 @@ int main() {
     visited.assign(nodes, false);
     adj.assign(nodes, vector<int>());
     int u, v;
-    // Values of nodes staring from 0, given as pairs of nodes
+    // Values of nodes, given as pairs
     for (int i = 0; i < edges; i++) {
         cin >> u >> v;
         adj[u].push_back(v);
-        adj[v].push_back(u); // Assuming undirected graph
+        adj[v].push_back(u); // <- Assuming undirected graph
     }
-    breadth_first_search(0); // Start BFS from node 0
+    breadth_first_search(0); // Start BFS from node x
 
     return 0;
 }

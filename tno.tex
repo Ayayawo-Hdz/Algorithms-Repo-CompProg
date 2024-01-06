@@ -1,7 +1,7 @@
 %"The PDF file may contain up to 25 pages of reference material, single-sided, letter or A4 size, with text and illustrations readable by a person with correctable eyesight without magnification from a distance of 1/2 meter."
 \input{preamble.tex}
 \begin{document}
-\def\title{Universidad Autonoma de Ciudad Juarez - Everyone's Connected}
+\def\title{UACJ - Everyone's Connected}
 .\\[0.2cm]
 \centering{\LARGE\textbf{Everyone's Connected}} \\[0.5cm]
 \centering{\includegraphics[width=5.5cm]{lain.jpg}}
@@ -10,10 +10,41 @@
 \section{Template}
 \cppfile{template.cpp}
 \section{Data structures}
+\subsection{STL Algorithms}
+\begin{justify}
+STL stands for Standard Template Library. It is a library that provides several generic 
+classes and functions, allowing programmers to manipulate data structures in an easy and efficient way.
+The STL provides a range of algorithms which can be used to manipulate data stored in containers. The following 
+list shows some of the algorithms provided by the STL and its functions:
+\end{justify}
+\textbf{Non-Manipulating Algorithms}
+\begin{itemize}
+\item \textbf{sort(first\_iterator, last\_iterator)} - Sorts the elements in the range [first, last) in ascending order.
+\item \textbf{sort(frst\_iterator, last\_iterator, greater\textless int\textgreater())} - Sorts elements inside the vector, in descending order.
+\item \textbf{reverse(first\_iterator, last\_iterator)} - Reverses elements inside a vector.
+\item \textbf{*max\_element(first\_iterator, last\_iterator)} - Finds the maximum element of a vector.
+\item \textbf{*min\_element(first\_iterator, last\_iterator)} - Finds the minimum element of a vector.
+\item \textbf{accumulate(first\_iterator, last\_iterator, initial value of sum)} - Summates all the vector elements.
+\item \textbf{count(first\_iterator, last\_iterator, x)} - Counts all occurrences 'x' inside a vector.
+\item \textbf{find(first\_iterator, last\_iterator, x)} - Returns an iterator to the first occurrence of 'x' in vector and points to last address if the element is not present.
+\item \textbf{binary\_search(first\_iterator, last\_iterator, x)} - Tests if 'x' exists in sorted vector or not.
+\item \textbf{lower\_bound(first\_iterator, last\_iterator, x)} - Returns an element pointing to the first element in range [first, last), which has a value less than 'x'.
+\item \textbf{upper\_bound(first\_iterator, last\_iterator, x)} - Returns an element pointing to the first element in range [first, last), which has a value greater than 'x'.
+\end{itemize}
+\textbf{Manipulating Algorithms}
+\begin{itemize}
+\item \textbf{arr.erase(position to delete)} - Erases selected element in vector and shifts and resizes it accordingly.
+\item \textbf{arr.erase(unique(arr.begin(), arr.end()), arr.end())} - Erases the duplicate occurrences in sorted vector in a single line.
+\item \textbf{next\_permutation(first\_iterator, last\_iterator)} - Modifies the vector to its next permutation.
+\item \textbf{prev\_permutation(first\_iterator, last\_iterator)} - Modifies the vector to its previous permutation.
+\item \textbf{distance(first\_iterator, desired\_iterator)} - Returns the distance of the desired position from the first iterator to a desired one.
+\end{itemize}
+\subsection{Binary Search}
+\cppfile{Data-Structures/binary_search.cpp}
 \subsection{Simplified DSU (Stolen from GGDem)}
 \subsection{Disjoint Set Union}
-\subsection{Segment tree}
-\subsection{Segment tree Lazy}
+\subsection{Segment Tree}
+\subsection{Segment Tree Lazy}
 \subsection{Trie}
 
 
@@ -22,6 +53,7 @@
 \subsubsection{BFS}
 \cppfile{Graphs/breadth_first_search.cpp}
 \subsubsection{DFS}
+\cppfile{Graphs/depth_first_search.cpp}
 \subsection{Topological Sort}
 \subsection{APSP: Floyd Warshall}
 \subsection{SSSP}
@@ -33,6 +65,7 @@
 \section{Math}
 \subsection{Identities}
 {
+
 \textbf{Coeficientes binomiales.}
 
 $(a+b)^{n} = \Sigma_{k = 0}^{n} \binom{n}{k}a^{n-k}b^{k}$
@@ -115,6 +148,7 @@ $x = P_{1}S_{1}a_{1} + P_{2}S_{2}a_{2} ... P_{k}S_{k}a_{k}$
 \subsection{Non-Mod Binomial Coeficient and Permutations}
 \subsection{Modular Catalan Numbers}
 \subsection{Ceil Fraccionario}
+\cppfile{Math/ceil_fraccionario.cpp}
 \subsection{Numeros de Fibonacci}
 \subsection{Sieve Of Eratosthenes}
 \subsection{Sieve-based Factorization}
@@ -131,6 +165,7 @@ $x = P_{1}S_{1}a_{1} + P_{2}S_{2}a_{2} ... P_{k}S_{k}a_{k}$
 
 \section{Strings}
 \subsection{Explode by token}
+\cppfile{Strings/explode_by_token.cpp}
 \subsection{Multiple Hashings DS}
 \subsection{Permute chars of string}
 \subsection{Longest common subsequence}

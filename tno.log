@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.30)  5 JAN 2024 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.30)  6 JAN 2024 02:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -343,6 +343,23 @@ LaTeX Info: Redefining \] on input line 2939.
 (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
+(/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip62
+\RaggedLeftLeftskip=\skip63
+\RaggedRightLeftskip=\skip64
+\CenteringRightskip=\skip65
+\RaggedLeftRightskip=\skip66
+\RaggedRightRightskip=\skip67
+\CenteringParfillskip=\skip68
+\RaggedLeftParfillskip=\skip69
+\RaggedRightParfillskip=\skip70
+\JustifyingParfillskip=\skip71
+\CenteringParindent=\skip72
+\RaggedLeftParindent=\skip73
+\RaggedRightParindent=\skip74
+\JustifyingParindent=\skip75
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -425,7 +442,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<lain.jpg, id=257, 722.7pt x 722.7pt>
+<lain.jpg, id=265, 722.7pt x 722.7pt>
 File: lain.jpg Graphic file (type jpg)
 <use lain.jpg>
 Package pdftex.def Info: lain.jpg  used on input line 7.
@@ -449,52 +466,61 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 11.
  (./template.cpp)
-(./Graphs/breadth_first_search.cpp [2]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
+3.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 23.
+ [2]
+(./Data-Structures/binary_search.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [3]
+ [3])
+(./Graphs/breadth_first_search.cpp) (./Graphs/depth_first_search.cpp [4])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+(./Math/ceil_fraccionario.cpp) (./Strings/explode_by_token.cpp)
 
 AED: lastpage setting LastPage
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Overfull \vbox (402.53918pt too high) has occurred while \output is active []
-
-
-[5
+ [6]
+[7
 
 ] (./tno.aux)
 Package rerunfilecheck Info: File `tno.out' has not changed.
-(rerunfilecheck)             Checksum: 0AA29163BE5EBEAD899B6D4E7D0FF036;9437.
+(rerunfilecheck)             Checksum: 71F50C0CD28E00ED0D99856CF8CEACFF;9694.
  ) 
 Here is how much of TeX's memory you used:
- 12910 strings out of 480247
- 197083 string characters out of 5896150
- 915059 words of memory out of 5000000
- 30536 multiletter control sequences out of 15000+600000
- 473250 words of font info for 44 fonts, out of 8000000 for 9000
+ 13232 strings out of 480247
+ 202540 string characters out of 5896150
+ 1024480 words of memory out of 5000000
+ 30726 multiletter control sequences out of 15000+600000
+ 473943 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 65i,12n,66p,333b,2037s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
->
-Output written on tno.pdf (5 pages, 218323 bytes).
+ 65i,12n,66p,333b,2043s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/herna/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600
+pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on tno.pdf (7 pages, 241921 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 476 compressed objects within 5 object streams
- 139 named destinations out of 1000 (max. 500000)
- 510 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 674 PDF objects out of 1000 (max. 8388607)
+ 630 compressed objects within 7 object streams
+ 247 named destinations out of 1000 (max. 500000)
+ 526 words of extra memory for PDF output out of 10000 (max. 10000000)
 
