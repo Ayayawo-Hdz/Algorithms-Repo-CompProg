@@ -6,7 +6,6 @@ using namespace std;
 bool prime[MAX];
 int pfix[MAX];
 
-// Sieve of Eratosthenes
 void sieve() {
     // Set all numbers as prime
     memset(prime, true, sizeof(prime));

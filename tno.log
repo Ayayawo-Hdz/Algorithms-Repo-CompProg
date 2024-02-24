@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.30)  24 FEB 2024 00:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.30)  24 FEB 2024 01:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -476,24 +476,26 @@ LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <10> not available
 (Font)              Font shape `OML/cmm/b/it' tried instead on input line 23.
  [2]
 (./Data-Structures/binary_search.cpp [3]) (./Graphs/breadth_first_search.cpp)
-(./Graphs/depth_first_search.cpp [4])
+(./Graphs/depth_first_search.cpp [4]) (./Graphs/lazy_dijkstra.cpp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-(./Math/ceil_fraccionario.cpp) (./Math/sieve_optimized.cpp)
-(./Strings/explode_by_token.cpp) [6] 
+(./Math/ceil_fraccionario.cpp) (./Math/sieve_optimized.cpp) [6]
+(./Strings/explode_by_token.cpp) 
 AED: lastpage setting LastPage
-[7
 
-] (./tno.aux)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+(./tno.aux)
 Package rerunfilecheck Info: File `tno.out' has not changed.
 (rerunfilecheck)             Checksum: 71F50C0CD28E00ED0D99856CF8CEACFF;9694.
  ) 
 Here is how much of TeX's memory you used:
- 13281 strings out of 480247
- 203198 string characters out of 5896150
- 1030480 words of memory out of 5000000
- 30748 multiletter control sequences out of 15000+600000
+ 13378 strings out of 480247
+ 204497 string characters out of 5896150
+ 1153480 words of memory out of 5000000
+ 30800 multiletter control sequences out of 15000+600000
  473943 words of font info for 46 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,12n,66p,333b,2043s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -510,10 +512,10 @@ ic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on tno.pdf (7 pages, 244440 bytes).
+Output written on tno.pdf (7 pages, 247876 bytes).
 PDF statistics:
- 703 PDF objects out of 1000 (max. 8388607)
- 659 compressed objects within 7 object streams
- 271 named destinations out of 1000 (max. 500000)
+ 754 PDF objects out of 1000 (max. 8388607)
+ 709 compressed objects within 8 object streams
+ 313 named destinations out of 1000 (max. 500000)
  526 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,11 +16,11 @@
 \contentsline {subsection}{\numberline {3.3}APSP: Floyd Warshall}{5}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}SSSP}{5}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Lazy Dijkstra}{5}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Bellman-Ford}{5}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Strongly Connected Components: Kosaraju}{5}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Articulation Points and Bridges: ModTarjan}{5}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Math}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Identities}{5}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Bellman-Ford}{6}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Strongly Connected Components: Kosaraju}{6}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Articulation Points and Bridges: ModTarjan}{6}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Math}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Identities}{6}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Binary Exponentiation and modArith}{6}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Modular Inverse (dividir mod)}{6}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Modular Binomial Coeficient and Permutations}{6}{subsection.4.4}%
@@ -29,18 +29,18 @@
 \contentsline {subsection}{\numberline {4.7}Ceil Fraccionario}{6}{subsection.4.7}%
 \contentsline {subsection}{\numberline {4.8}Numeros de Fibonacci}{6}{subsection.4.8}%
 \contentsline {subsection}{\numberline {4.9}Sieve Of Eratosthenes}{6}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Sieve-based Factorization}{6}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Cycle Finding}{6}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Berlekamp Massey}{6}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Modular Berlekamp Massey}{6}{subsection.4.13}%
-\contentsline {subsection}{\numberline {4.14}Matrix exponentiation}{6}{subsection.4.14}%
-\contentsline {subsection}{\numberline {4.15}Ecuaciones Diofantinas}{6}{subsection.4.15}%
-\contentsline {subsection}{\numberline {4.16}Pollard-Rho, Stolen from GGDem}{6}{subsection.4.16}%
-\contentsline {subsection}{\numberline {4.17}FFT, Stolen from GGDem}{6}{subsection.4.17}%
-\contentsline {subsection}{\numberline {4.18}Euler Totient Function}{6}{subsection.4.18}%
-\contentsline {section}{\numberline {5}Geometry}{6}{section.5}%
-\contentsline {section}{\numberline {6}Strings}{6}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Explode by token}{6}{subsection.6.1}%
+\contentsline {subsection}{\numberline {4.10}Sieve-based Factorization}{7}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Cycle Finding}{7}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Berlekamp Massey}{7}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Modular Berlekamp Massey}{7}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}Matrix exponentiation}{7}{subsection.4.14}%
+\contentsline {subsection}{\numberline {4.15}Ecuaciones Diofantinas}{7}{subsection.4.15}%
+\contentsline {subsection}{\numberline {4.16}Pollard-Rho, Stolen from GGDem}{7}{subsection.4.16}%
+\contentsline {subsection}{\numberline {4.17}FFT, Stolen from GGDem}{7}{subsection.4.17}%
+\contentsline {subsection}{\numberline {4.18}Euler Totient Function}{7}{subsection.4.18}%
+\contentsline {section}{\numberline {5}Geometry}{7}{section.5}%
+\contentsline {section}{\numberline {6}Strings}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Explode by token}{7}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Multiple Hashings DS}{7}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Permute chars of string}{7}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Longest common subsequence}{7}{subsection.6.4}%
