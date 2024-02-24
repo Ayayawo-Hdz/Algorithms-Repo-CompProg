@@ -2,6 +2,9 @@
 #define endl '\n'
 #define ll long long int
 #define ull unsigned long long int
+#define MOD7 1000000007
+#define MOD9 1000000009
+#define MAX 1000001
 
 using namespace std;
 
