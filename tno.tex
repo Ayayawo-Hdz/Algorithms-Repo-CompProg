@@ -85,7 +85,7 @@ $\binom{n+m}{t} = \Sigma_{k = 0}^{t}\binom{n}{k}\binom{m}{t-k}$
 
 $\Sigma_{j = k}^{n} \binom{j}{k} = \binom{n+1}{k+1}$
 
-\textbf{Numeros Catalanes.}
+\textbf{Números Catalanes.}
 
 $C_n = \frac{2(2n-1)}{n+1} C_{n-1}$
 
@@ -143,8 +143,72 @@ $P_{1}S_{1} \cong 1(n_{1})$ Donde $S$ soluciones.
 $x = P_{1}S_{1}a_{1} + P_{2}S_{2}a_{2} ... P_{k}S_{k}a_{k}$
 
 
-\subsection{Binary Exponentiation and modArith}
+\subsection{Binary Exponentiation and Modular Arithmetic}
+\begin{justify}
+Modular airhmetic is a system of arithmetic for integers, which considers the remainder.
+In modulus, numbers "wrap around" upon reaching a fixed value.\\ \\
+\textbf{Congruence}\\
+A number $x$ mod $N$ is the equivalent of the remainder of the division of $x$ by $N$.
+Two numbers $a$ and $b$ are congruent modulo $N$ if they have the same remainder
+upon division by $N$. We say that $N$ if $a$ mod $N = b$ mod $N$.
+\begin{itemize}
+\item \textbf{For example:} $54 \equiv 24$ (mod $7$)\\Both numbers are congruent modulo 7, 
+since $54$ mod $7 = 3$ and $24$ mod $7 = 3$.
+\end{itemize}
+Another way of defining this is by saying that $a$ and $b$ are congruent modulo $N$ if their 
+difference $(a-b)$ is an integer multiple of $n$, that is, if $\frac{a - b}{n}$ has a reminder of 0.
+\begin{itemize}
+\item \textbf{For example:} $36 \equiv 10$ (mod $13$)\\$36$ and $10$ are congruent modulo 13, since
+their difference $36-10 = 26$ is a multiple of 13 ($n = 13$).
+\end{itemize}
+\textbf{Addition}\\
+\textbf{Properties of addition in Modular Arithmetic:}
+\begin{enumerate}
+\item If $a + b = c$ then $a$ (mod $N$) $+ b$ (mod $N$) $\equiv c$ (mod $N$).
+\item If $a \equiv b$ (mod $N$), then $a + k \equiv b + k$ (mod $N$) for any integer $k$.
+\item If $a \equiv b$ (mod $N$) and $c \equiv d$ (mod $N$), then $a + c \equiv b + d$ (mod $N$).
+\item If $a \equiv b$ (mod $N$), then $-a \equiv -b$ (mod $N$).
+\end{enumerate}
+\begin{itemize}
+\item \textbf{For example:} Find the sum of $31$ and $148$ in modulo $24$.\\
+$31$ in modulo $24$ is $7$ and $148$ in modulo $24$ is $4$. Thus, $31 + 148 \equiv 7 + 4 \equiv 11$ (mod $24$).
+\item \textbf{Another example:} Find the remainder when $123 + 234 + 32 + 56 + 22 + 12 + 78$ is divided by $3$.\\
+We know that $123$ mod $3 = 0$, $234$ mod $3 = 0$, $32$ mod $3 = 2$, $56$ mod $3 = 2$, $22$ mod $3 = 1$, $12$ mod $3 = 0$, and $78$ mod $3 = 0$. 
+Thus, the sum of all these numbers is $0 + 0 + 2 + 2 + 1 + 0 + 0 = 5$, and $5$ mod $3 = 2$.
+\end{itemize}
+\textbf{Multiplication}\\
+\textbf{Properties of multiplication in Modular Arithmetic:}
+\begin{enumerate}
+\item If $a \cdot b = c$, then $a$ (mod $N$) $\cdot b$ (mod $N$) $\equiv c$ (mod $N$).
+\item If $a \equiv b$ (mod $N$), then $a \cdot k \equiv b \cdot k$ (mod $N$) for any integer $k$.
+\item If $a \equiv b$ and $c \equiv d$ (mod $N$), then $a \cdot c \equiv b \cdot d$ (mod $N$).
+\end{enumerate}
+\begin{itemize}
+\item \textbf{For example:} What is $(8 \cdot 16)$ (mod $7$).\\
+Since $8 \equiv 1$ (mod $7$) and $16 \equiv 2$ (mod $7$), then $(8 \cdot 16) \equiv (1 \cdot 2) \equiv 2$ (mod $7$).
+\item \textbf{Another example:} What is the remainder when $123 \cdot 234 \cdot 32 \cdot 56 \cdot 22 \cdot 12 \cdot 78$ is divided by $3$.\\
+We know that $123 \equiv 1$, $134 \equiv 2$, $23 \equiv 2$, $49 \equiv 1$, $235 \equiv 1$ and $13 \equiv 1$, therefore:\\
+$123 \cdot 234 \cdot 32 \cdot 56 \cdot 22 \cdot 12 \cdot 78 \equiv 1 \cdot 2 \cdot 2 \cdot 1 \cdot 1 \cdot 1 \equiv 4 \equiv 1$ (mod $3$).
+Leaving a remainder of $1$.
+\end{itemize}
+\end{justify}
+\cppfile{Math/modular_arithmetic.cpp}
 \subsection{Modular Inverse (dividir mod)}
+\begin{justify}
+The modular inverse of an integer $a$ modulo $m$ is an integer $x$ such that $ax \equiv 1$ (mod $m$).\\
+\begin{itemize}
+\item If $a$ and $N$ are integers such that $gcd(a, N) = 1$, then there exists an integer $x$ such that $ax \equiv 1$ (mod $N$).\\
+$x$ is called the modular inverse of $a$ modulo $N$.
+\end{itemize}
+However, $\frac{a}{b}$ (mod $N$) is not the same as $(\frac{(a \mod N)}{(b \mod N)})$ (mod $N$).\\
+\begin{itemize}
+\item Lets take $a = 10$, $b = 2$, and $N = 3$.\\
+$\frac{10}{2}$ (mod $3$) = $5$ (mod $3$) = $2$ ; $(\frac{10 \mod 3}{2 \mod 3})$ (mod $3$) = $(\frac{1}{2})$ (mod $3$) = $0.5$.\\
+This discrepancy is due to the fact that division is not always compatible with modular arithmetic.
+\end{itemize}
+On the other hand, using the extended Euclidean algorithm, we can find the modular inverse of $a$ modulo $N$:
+\end{justify}
+\cppfile{Math/extended_euclidean.cpp}
 \subsection{Modular Binomial Coeficient and Permutations}
 \subsection{Non-Mod Binomial Coeficient and Permutations}
 \subsection{Modular Catalan Numbers}
