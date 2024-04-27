@@ -25,10 +25,10 @@ list shows some of the algorithms provided by the STL and its functions:
 \item \textbf{*max\_element(first\_iterator, last\_iterator)} - Finds the maximum element of a vector.
 \item \textbf{*min\_element(first\_iterator, last\_iterator)} - Finds the minimum element of a vector.
 \item \textbf{accumulate(first\_iterator, last\_iterator, initial value of sum)} - Summates all the vector elements.
-\item \textbf{count(first\_iterator, last\_iterator, x)} - Counts all occurrences 'x' inside a vector.
+\item \textbf{count(first\_iterator, last\_iterator, x)} - Counts all occurrences 'x' inside a vector. It has a linear complexity over the quantity of occurrences inside the container; if you fill a set with just one element, the count() function over that element will have an overall complexity of $O(|set|)$ where $|set|$ is the cardinality of the set. 
 \item \textbf{find(first\_iterator, last\_iterator, x)} - Returns an iterator to the first occurrence of 'x' in vector and points to last address if the element is not present.
 \item \textbf{binary\_search(first\_iterator, last\_iterator, x)} - Tests if 'x' exists in sorted vector or not.
-\item \textbf{lower\_bound(first\_iterator, last\_iterator, x)} - Returns an element pointing to the first element in range [first, last), which has a value less than 'x'.
+\item \textbf{lower\_bound(first\_iterator, last\_iterator, x)} - Returns an element pointing to the first element in range [first, last), which has a value less than 'x'. Notice that it has a linear complexity over sets and multisets, to avoid this it is necessary to use the member method of those containers. 
 \item \textbf{upper\_bound(first\_iterator, last\_iterator, x)} - Returns an element pointing to the first element in range [first, last), which has a value greater than 'x'.
 \end{itemize}
 \textbf{Manipulating Algorithms}
@@ -254,7 +254,8 @@ On the other hand, using the extended Euclidean algorithm, we can find the modul
 \subsection{Dinic, thx GGDem}
 
 \section{Miscellaneous}
-\subsection{PBDS}
+\subsection{Policy Based Data Structures}
+\cppfile{Misc/order_statistic_tree.cpp}
 \subsection{Bit Manipulation}
 \cppfile{Misc/bit_manipulation.cpp}
 \subsubsection{Bitmasking}
@@ -281,7 +282,7 @@ XOR and NOT.\\
 %\lstinputlisting[language={bash}]{Testing/runAllTests.sh}
 \subsection{Highly Composite Numbers}
 Particularly useful when testing number theoretical solutions.
-%\lstinputlisting[language={}]{Testing/highlycomposite.txt}
+\lstinputlisting[language={}]{Testing/highlycomposite.txt}
 
 
 \end{document}
