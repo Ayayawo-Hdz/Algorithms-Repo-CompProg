@@ -33,14 +33,15 @@
 \contentsline {subsection}{\numberline {4.8}Fibonacci Numbers}{9}{subsection.4.8}%
 \contentsline {subsection}{\numberline {4.9}Sieve Of Eratosthenes}{9}{subsection.4.9}%
 \contentsline {subsection}{\numberline {4.10}Sieve-based Factorization}{9}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Cycle Finding}{10}{subsection.4.11}%
-\contentsline {subsection}{\numberline {4.12}Berlekamp Massey}{10}{subsection.4.12}%
-\contentsline {subsection}{\numberline {4.13}Modular Berlekamp Massey}{10}{subsection.4.13}%
-\contentsline {subsection}{\numberline {4.14}Matrix exponentiation}{10}{subsection.4.14}%
-\contentsline {subsection}{\numberline {4.15}Ecuaciones Diofantinas}{10}{subsection.4.15}%
-\contentsline {subsection}{\numberline {4.16}Pollard-Rho, Stolen from GGDem}{10}{subsection.4.16}%
-\contentsline {subsection}{\numberline {4.17}FFT, Stolen from GGDem}{10}{subsection.4.17}%
-\contentsline {subsection}{\numberline {4.18}Euler Totient Function}{10}{subsection.4.18}%
+\contentsline {subsection}{\numberline {4.11}Prime number factorization}{9}{subsection.4.11}%
+\contentsline {subsection}{\numberline {4.12}Cycle Finding}{10}{subsection.4.12}%
+\contentsline {subsection}{\numberline {4.13}Berlekamp Massey}{10}{subsection.4.13}%
+\contentsline {subsection}{\numberline {4.14}Modular Berlekamp Massey}{10}{subsection.4.14}%
+\contentsline {subsection}{\numberline {4.15}Matrix exponentiation}{10}{subsection.4.15}%
+\contentsline {subsection}{\numberline {4.16}Ecuaciones Diofantinas}{10}{subsection.4.16}%
+\contentsline {subsection}{\numberline {4.17}Pollard-Rho, Stolen from GGDem}{10}{subsection.4.17}%
+\contentsline {subsection}{\numberline {4.18}FFT, Stolen from GGDem}{10}{subsection.4.18}%
+\contentsline {subsection}{\numberline {4.19}Euler Totient Function}{10}{subsection.4.19}%
 \contentsline {section}{\numberline {5}Geometry}{10}{section.5}%
 \contentsline {section}{\numberline {6}Strings}{10}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Explode by token}{10}{subsection.6.1}%
